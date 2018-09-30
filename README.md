@@ -1,5 +1,5 @@
 
-[高雄旅遊資訊(RWD)(GitHub)](https://lhikarul.github.io/KHH-travelSpot/"Title")
+[高雄旅遊資訊(RWD)(GitHub)](https://lhikarul.github.io/KHH-travelSpot/)
 
 1.運用ajax撈取高雄政府開放平台的JSON資料
 
