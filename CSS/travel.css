@@ -1,0 +1,279 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h5 {
+	margin: 0;
+}
+
+html,body {
+	background: gainsboro;
+	height: 100%;
+}
+
+hr {
+	border: 1px dashed #559AC8;
+    width: 900px;
+}
+
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+	max-width: 1024px;
+	display: block;
+	margin: 0 auto;
+}
+
+#wrapper {
+	position: relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#header {
+	background-image: url(../images/Hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 80%;
+	height: 380px;
+}
+
+#header .container {
+	text-align: center;
+	padding-top: 100px;
+}
+
+#header h1 {
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 41px;
+	letter-spacing: 3.89px;
+	font-family: PingFangTC-Regular;
+	margin-bottom: 100px;
+}
+
+#header #area {
+	width: 452px;
+	height: 48px;
+	background: rgba(255,255,255,0.70);
+	border: 3px solid #FFFFFF;
+	border-radius: 3px;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.popular-area {
+	background: #ffffff;
+	max-width: 800px;
+	height: 112px;
+	margin: 0 auto;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	position: relative;
+	top: -30px;
+	border-radius: 5px;
+}
+
+.popular-area h2 {
+	    padding: 15px;
+	    font-size: 18px;
+	    font-weight: normal;
+	    line-height: 21px;
+	    text-align: left;
+}
+
+.popular-area li {
+	float: left;
+	width: 130px;
+	height: 42px;
+	border-radius: 5px;
+	margin: 0 15px;
+	line-height: 42px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.popular-area li a {
+	color: #ffffff;
+}
+
+
+.popular-area .area1 {
+	background: #8A82CC;
+	margin-left: 50px;
+}
+
+.area2 {
+	background: #FFA782;
+}
+
+.area3 {
+	background: #F5D005;
+}
+
+.area4 {
+	background: #559AC8;
+}
+
+
+/* content */
+
+h1.title {
+	font-size: 36px;
+	color: #8a82cc;
+	text-align: center;
+	margin: 30px 0;
+}
+
+
+
+.travelSpot {
+	float: left;
+	width: 464px;
+	margin: 0 20px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	background: #ffffff;
+}
+
+.travelSpot img {
+	width: 100%;
+	height: 155px;	
+}
+
+.travelSpot .description {
+	padding: 20px;
+    border: 1px solid rgba(25,25,25,0.3);
+    margin: 16px 10px;
+    line-height: 1.5;
+    display: none;
+}
+
+.spotName {
+	position: relative;
+    top: -45px;
+    font-size: 24px;
+    color: #ffffff;
+    background: rgba(0,0,0,0.5);
+    padding: 0 20px;
+}
+
+.spotName h5 {
+	float: right;
+}
+
+.content {
+	padding-bottom: 90px;
+}
+
+.content i {
+	display: block;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+.icon-mobile {
+	float: left;
+}
+
+.icon-tag {
+	float: right;
+	margin-right: 30px;
+	
+}
+.icon-tag:before {
+	color: #F5D005;
+}
+
+.icon-clock:before {
+	color: #8A82CC;
+}
+
+.icon-location:before {
+	color: #F5D005;
+}
+
+.icon-mobile:before {
+	color: #559AC8;
+}
+
+.infor {
+	background: #559AC8;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    border: none;
+}
+
+
+/* footer */
+#footer {
+    background: #559AC8;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#footer .container {
+	height: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media (max-width: 991px){
+	.container {
+		max-width: 800px;
+	}
+	.travelSpot {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 767px){
+	.container {
+		max-width: 650px;
+	}
+	#area {
+		width: 100% !important;
+	}
+	
+	.popular-area {
+		position: static;
+		width: 100%;
+		height: 100%;
+	}
+	.popular-area li{
+		float: none;
+		width: 100%;
+		margin: 0 !important;
+		margin-bottom: 5px !important;
+	}
+}
+
+@media (max-width: 575px) {
+	.container {
+		max-width: 450px;
+	}
+}
