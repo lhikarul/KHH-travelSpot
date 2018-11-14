@@ -1,13 +1,30 @@
+# 高雄旅遊網
 
-[高雄旅遊資訊(RWD)(GitHub)](https://lhikarul.github.io/KHH-travelSpot/)
+![image](https://github.com/lhikarul/KHH-travelSpot/blob/master/demo/demo1.png?raw=true)
 
-1.運用ajax遠端撈取高雄政府開放平台的JSON資料
+### [Demo](https://lhikarul.github.io/KHH-travelSpot/)
 
-2.原生css手刻版型
+***
 
-3.透過JavaScript change事件，使用者所選取的地區，會渲染出符合條件的旅遊景點。
+### 簡介
 
-4.具備RWD響應式設計，斷點設置在max-width:991px,761px,575px。
+前端Bootstra 4 作品
+
+整合高雄所有的旅遊景點
+
+### 主要練習
+
+原生CSS手刻
+
+Ajax遠端串接高雄政府的open data
+
+### 高雄市地區
+
+![image](https://github.com/lhikarul/KHH-travelSpot/blob/master/demo/demo2.png?raw=true)
+
+![image](https://github.com/lhikarul/KHH-travelSpot/blob/master/demo/demo3.png?raw=true)
+
+將Ajax撈取到的資料，渲染在頁面上。
 
 
 
