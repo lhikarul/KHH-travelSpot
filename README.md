@@ -25,6 +25,8 @@ Ajax遠端串接高雄政府的open data
 
 ![image](https://github.com/lhikarul/KHH-travelSpot/blob/master/demo/demo2.png?raw=true)
 
+***
+
 ![image](https://github.com/lhikarul/KHH-travelSpot/blob/master/demo/demo3.png?raw=true)
 
 將Ajax撈取到的資料，渲染在頁面上。
